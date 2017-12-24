@@ -18,7 +18,10 @@ def assign_rooms(name)
     i += 1 
   end 
   j = 0 
-  while j < room_array.validates_length_of
+  while j < room_array.length 
+    print room_array[j]
+    j += 1 
+  end 
 end 
 
 def printer 
