@@ -12,8 +12,7 @@ end
 
 
 def assign_rooms(name)
-  if i < 
-    return "Hello, #{array[i]}! You'll be assigned to room #{i+1}!"
+    room_array << "Hello, #{name}! You'll be assigned to room #{room.array.length + 1}!"
   
 end 
 
