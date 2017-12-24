@@ -10,8 +10,9 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end 
 
-name_array = []
+
 def assign_rooms(name)
+    name_array = []
     name_array << name 
     i = 0 
     while i < name_array.length 
