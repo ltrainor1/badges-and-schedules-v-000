@@ -19,7 +19,7 @@ def assign_rooms(name)
   end 
   j = 0 
   while j < room_array.length 
-    print room_array[j]
+    puts room_array[j]
     j += 1 
   end 
 end 
