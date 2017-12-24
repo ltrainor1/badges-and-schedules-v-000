@@ -10,18 +10,11 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end 
 
-i = 0 
-room_array = []
+
 def assign_rooms(name)
-  if i < 7 
-    room_array << "Hello, #{array[i]}! You'll be assigned to room #{i+1}!"
-    i += 1 
-  end 
-  j = 0 
-  while j < room_array.length 
-    puts room_array[j]
-    j += 1 
-  end 
+  if i < 
+    return "Hello, #{array[i]}! You'll be assigned to room #{i+1}!"
+  
 end 
 
 def printer 
