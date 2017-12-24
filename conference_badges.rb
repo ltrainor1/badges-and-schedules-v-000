@@ -12,6 +12,7 @@ end
 
 
 def assign_rooms(name)
+  room_array = []
     room_array << "Hello, #{name}! You'll be assigned to room #{room.array.length + 1}!"
   
 end 
