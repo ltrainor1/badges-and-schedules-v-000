@@ -27,5 +27,6 @@ def printer(array)
   batch_array = batch_badge_creator(array).clone
   room_array = assign_rooms(array).clone
   batch_array.each {|x| puts x}
+  room_array.each {|x| puts x}
 end 
   
