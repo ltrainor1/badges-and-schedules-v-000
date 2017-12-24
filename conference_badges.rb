@@ -25,6 +25,7 @@ end
 
 def printer(array)
   puts batch_badge_creator(array)
-  puts assign_rooms(array)
+  new_array = assign_rooms(array).clone
+  new_array.each {|x| puts x}
 end 
   
