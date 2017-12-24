@@ -11,9 +11,9 @@ def badge_maker(name)
 end 
 
 
-def assign_rooms(name)
+def assign_rooms(names)
     name_array = []
-    name_array << name 
+    names.each {|x| name_array << x} 
     i = 0 
     while i < name_array.length 
       return "Hello, #{name_array[i]}! You'll be assigned to room #{i + 1}!"
