@@ -17,6 +17,7 @@ def assign_rooms(name)
     i = 0 
     while i < name_array.length 
       return "Hello, #{name_array[i]}! You'll be assigned to room #{i + 1}!"
+      i += 1
     end 
 end 
 
